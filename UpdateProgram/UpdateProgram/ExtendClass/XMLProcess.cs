@@ -87,6 +87,30 @@ namespace DotNet.Utilities
         }
         #endregion
 
+        #region 创建XML文件
+        public static void Create(string xmlName)
+        {
+            try
+            {
+                if (File.Exists("UpdateInfo.xml") == false)
+                {
+                    XmlDocument doc = new XmlDocument();
+                    //建立xml定义声明
+                    XmlDeclaration dec = doc.CreateXmlDeclaration("1.0", "utf-8", null);
+                    doc.AppendChild(dec);
+                    //创建根节点
+                    XmlElement root = doc.CreateElement("UpdateInformation");
+                    doc.AppendChild(root);
+                    doc.Save("UpdateInfo.xml");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
+        #endregion
         #region 读取数据
         /// <summary>
         /// 读取指定节点的数据
@@ -287,7 +311,10 @@ namespace DotNet.Utilities
                 }
                 doc.Save(AppDomain.CurrentDomain.BaseDirectory.ToString() + path);
             }
-            catch { }
+            catch 
+            {
+
+            }
         }
 
         /// <summary>

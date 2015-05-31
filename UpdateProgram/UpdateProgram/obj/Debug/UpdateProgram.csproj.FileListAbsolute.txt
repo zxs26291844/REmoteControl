@@ -13,3 +13,17 @@ F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.BackupForm
 F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.KillForm.resources
 F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.SettingsForm.resources
 F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.VersionForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.exe.config
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.exe
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.pdb
+F:\VersionControl\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.exe
+F:\VersionControl\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.pdb
+F:\VersionControl\UpdateProgram\UpdateProgram\bin\Debug\CSkin.xml
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.csprojResolveAssemblyReference.cache
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.BackupForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.KillForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.Properties.Resources.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.SettingsForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.UpdateForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.VersionForm.resources
+F:\VersionControl\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.csproj.GenerateResource.Cache

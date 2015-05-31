@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<update>
+  <name file="AxInterop.iPlotLibrary.dll">
+    <filename>AxInterop.iPlotLibrary.dll</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="AxInterop.iProfessionalLibrary.dll">
+    <filename>AxInterop.iProfessionalLibrary.dll</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="DevExpress.BonusSkins.v13.2.dll">
+    <filename>DevExpress.BonusSkins.v13.2.dll</filename>
+    <fileversion>13.2.5.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="DevExpress.BonusSkins.v13.2.reg">
+    <filename>DevExpress.BonusSkins.v13.2.reg</filename>
+    <fileversion>
+    </fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="FormLibrary.dll">
+    <filename>FormLibrary.dll</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="Interop.iPlotLibrary.dll">
+    <filename>Interop.iPlotLibrary.dll</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="Interop.iProfessionalLibrary.dll">
+    <filename>Interop.iProfessionalLibrary.dll</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="RibonForm.exe">
+    <filename>RibonForm.exe</filename>
+    <fileversion>1.0.0.0</fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="SkinInfo.xml">
+    <filename>SkinInfo.xml</filename>
+    <fileversion>
+    </fileversion>
+    <filelastmodified>2015/5/13 13:44:09</filelastmodified>
+  </name>
+  <name file="UpdateInfo.xml">
+    <filename>UpdateInfo.xml</filename>
+    <fileversion>
+    </fileversion>
+    <filelastmodified>2015/5/11 15:37:12</filelastmodified>
+  </name>
+  <name file="原器件名称.docx">
+    <filename>原器件名称.docx</filename>
+    <fileversion>
+    </fileversion>
+    <filelastmodified>2015/5/18 11:23:34</filelastmodified>
+  </name>
+  <name file="新建文本文档.txt">
+    <filename>新建文本文档.txt</filename>
+    <fileversion>
+    </fileversion>
+    <filelastmodified>2015/5/18 11:23:34</filelastmodified>
+  </name>
+</update>

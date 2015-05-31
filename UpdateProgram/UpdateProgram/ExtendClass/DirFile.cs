@@ -74,7 +74,7 @@ namespace DotNet.Utilities
         /// 获取指定目录中所有文件列表
         /// </summary>
         /// <param name="directoryPath">指定目录的绝对路径</param>        
-        public static ArrayList GetFileAndDirectoryNames(string directoryPath)
+        public static object[] GetFileAndDirectoryNames(string directoryPath)
         {
             //如果目录不存在，则抛出异常
             if (!IsExistDirectory(directoryPath))
@@ -95,7 +95,8 @@ namespace DotNet.Utilities
             {
                 fileAnddirectory.Add(directoryname[j]);
             }
-            return fileAnddirectory;
+            object[] fileAnddirectorylist = fileAnddirectory.ToArray();
+            return fileAnddirectorylist;
         }
         #endregion
 

@@ -29,13 +29,23 @@ namespace UpdateProgram
         public static string strNewAppVersion = "";
         public static string strNewAppUpdateTime = "";
         public static string strNewAppMessages = "";
-        public static Process[] proc; 
+        public static Process[] proc;
+        public static FTPHelper ftp;
         #endregion
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            #region 检查是否存在UpdateInfo.xml文件，如果不存在则启动设置窗口，创建UpdateInfo.xml文件，并配置该文件
+            if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory.ToString() + "UpdateInfo.xml"))
+            {
+                //启动设置窗口
+                SettingsForm settingForm = new SettingsForm();
+                settingForm.ShowDialog();
+            }
+            
+            #endregion
             #region 连接到FTP，下载最新的XML配置文件到临时文件夹
             //从原程序目录下读取XML文件中的FTP信息,并下载最新的XML文件
             FTPPath = XMLProcess.Read("UpdateInfo.xml", "UpdateInformation", "FTPInformation", "FTPPath");
@@ -44,7 +54,7 @@ namespace UpdateProgram
             //检查temp文件夹是否存在，并创建temp文件夹
             DirFile.CreateDir("temp");
             //将最新的XML文件下载到temp文件夹中
-            FTPHelper ftp = new FTPHelper(FTPPath, "", FTPUser, FTPPassword);
+            ftp = new FTPHelper(FTPPath, "", FTPUser, FTPPassword);
             ftp.Download(FTPPath, AppDomain.CurrentDomain.BaseDirectory.ToString() + @"\temp", "UpdateInfo.xml");
             #endregion
 
@@ -83,15 +93,10 @@ namespace UpdateProgram
             }
             #endregion
 
-            //#region 运行更新窗口
-            //UpdateForm updateform = new UpdateForm();
-            //updateform.ShowDialog();
-            //#endregion
-
             #region 开始批量下载文件到临时文件夹
             //下载FTP上的文件到temp文件夹
             string[] filelist = ftp.GetFileList(FTPPath);
-            for (int i = 0; i < filelist.Length;i++ )
+            for (int i = 0; i < filelist.Length; i++)
             {
                 ftp.Download(FTPPath, AppDomain.CurrentDomain.BaseDirectory.ToString() + @"\temp", filelist[i]);
             }
@@ -149,14 +154,12 @@ namespace UpdateProgram
             }
             #endregion
 
-            #region 拷贝完成后，删除temp文件夹，然后启动新的主程序
+            #region 拷贝完成后，删除temp文件夹，提示更新完毕，然后启动新的主程序
             DirFile.DeleteDirectory(AppDomain.CurrentDomain.BaseDirectory.ToString() + "temp");
             Process.Start(strNewAppName + ".exe");
-            
             #endregion
 
-            Application.Run(new MainForm());
-            int k = 0;
+            Application.Run(new UpdateForm());
         }
     }
 }
