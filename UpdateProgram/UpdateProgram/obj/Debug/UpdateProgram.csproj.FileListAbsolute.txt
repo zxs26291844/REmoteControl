@@ -1,0 +1,15 @@
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.exe.config
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.exe
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\bin\Debug\UpdateProgram.pdb
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\bin\Debug\CSkin.dll
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\bin\Debug\CSkin.xml
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.csprojResolveAssemblyReference.cache
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.Properties.Resources.resources
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.UpdateForm.resources
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.csproj.GenerateResource.Cache
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.exe
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.pdb
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.BackupForm.resources
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.KillForm.resources
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.SettingsForm.resources
+F:\ProgramTest\C#\UpdateProgram\UpdateProgram\obj\Debug\UpdateProgram.VersionForm.resources

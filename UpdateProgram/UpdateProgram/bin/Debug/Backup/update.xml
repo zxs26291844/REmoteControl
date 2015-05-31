@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--<description>ÍêÉÆÒ»ÏÂ¹¦ÄÜ </description>-->
+<AutoUpdater>
+<URLAddres URL="ftp://192.168.0.36/update"/> //Éý¼¶ÎÄ¼þËùÔÚ·þÎñÆ÷¶ËÎ»ÖÃ£¬¿É¸ü¸Ä
+
+
+<UdpateInfo>
+<Version Num="1.1.0.0"/>//Éý¼¶ÎÄ¼þµÄ°æ±¾ºÅ 
+</UdpateInfo>
+
+
+<UpdateFileList>//Éý¼¶ÎÄ¼þÁÐ±í
+<UpdateFile FileName="System.Management.dll"/>//¹²ÓÐÈý¸öÎÄ¼þÐèÉý¼¶ 
+<UpdateFile FileName="System.Management.dll"/>
+<UpdateFile FileName="System.Management.dll"/>
+</UpdateFileList>
+
+<LocalDirList>//½«Éý¼¶ÎÄ¼þÒÀ´Î·ÅÔÚ¿Í»§¶ËÄÇ¸öÎÄ¼þ¼ÐÏÂ
+<LocalFile FileName=" "/>
+<LocalFile FileName=" "/>
+<LocalFile FileName=" "/>
+</LocalDirList>  
+
+<DelFileList> //É¾³ýÎÄ¼þÁÐ±í
+<DelFile FileName="b.txt"/>                                                                 
+ 
+</DelFileList>                                                                                                           
+<DelFilesDir> //É¾³ýÎÄ¼þËùÔÚµÄÎÄ¼þ¼ÐÏà¶ÔÓÚ¿ÉÖ´ÐÐ³ÌÐòµÄÄ¿Â¼
+<DelFileDir FileName="a" />   
+</DelFilesDir>
+                                                                    
+<KillApp>       //ÐèÒªÉ±ËÀµÄÓ¦ÓÃ³ÌÐòÃû
+<Application AppName="WindowsTest"/> 
+<Application AppName="Window1"/> 
+</KillApp>
+
+<RestartApp>  //ÐèÒªÆô¶¯µÄÓ¦ÓÃ³ÌÐò
+<App AppName="WindowsTest"/>
+</RestartApp>
+</AutoUpdater>
