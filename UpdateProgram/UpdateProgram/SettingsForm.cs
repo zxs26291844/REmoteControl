@@ -44,7 +44,22 @@ namespace UpdateProgram
 
         private void btnCreateXML_Click(object sender, EventArgs e)
         {
+            //检测并生成
+            XMLProcess.Create("UpdateInfo.xml");
+            //插入FTPInformation子节点,并插入相应的值
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "FTPPath", "", txtFTPPath.Text);
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "FTPUser", "", txtFTPUser.Text);
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "FTPPassword", "", txtFTPPassword.Text);
+            //插入ApplicationInformation子节点
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "ApplicationName", "", txtAppName.Text);
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "ApplicationVersion", "", txtVersion.Text);
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "ApplicationUpdateTime", "", dtpUpdateTime.Text);
+            XMLProcess.Insert("UpdateInfo.xml", "UpdateInformation", "ApplicationMessages", "", txtUpdateInfo.Text);
+        }
 
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

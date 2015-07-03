@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UpdateInformation>
    <FTPInformation>
-       <FTPPath>ftp://192.168.168.199/update/RibonForm/</FTPPath>
+       <FTPPath>ftp://192.168.0.199/update/RibonForm/</FTPPath>
        <FTPUser>zxs</FTPUser>
        <FTPPassword>zxs26291844</FTPPassword>
    </FTPInformation>

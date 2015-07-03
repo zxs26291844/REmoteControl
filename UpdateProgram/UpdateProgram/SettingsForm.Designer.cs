@@ -94,7 +94,7 @@
             this.txtFTPPath.Name = "txtFTPPath";
             this.txtFTPPath.Size = new System.Drawing.Size(256, 21);
             this.txtFTPPath.TabIndex = 1;
-            this.txtFTPPath.Text = "ftp://192.168.168.199/update/RibonForm1/";
+            this.txtFTPPath.Text = "ftp://192.168.0.199/update/RibonForm1/";
             // 
             // label3
             // 
@@ -144,6 +144,8 @@
             // 
             // dtpUpdateTime
             // 
+            this.dtpUpdateTime.CustomFormat = "yyyy-MM-dd HH:mm:ss";
+            this.dtpUpdateTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpUpdateTime.Location = new System.Drawing.Point(89, 86);
             this.dtpUpdateTime.Name = "dtpUpdateTime";
             this.dtpUpdateTime.Size = new System.Drawing.Size(226, 21);
@@ -203,6 +205,7 @@
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnUpload
             // 

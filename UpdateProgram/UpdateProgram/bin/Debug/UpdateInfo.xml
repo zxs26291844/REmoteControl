@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpdateInformation>
+  <FTPPath>ftp://192.168.0.199/update/RibonForm1/</FTPPath>
+  <FTPUser>zxs</FTPUser>
+  <FTPPassword>zxs26291844</FTPPassword>
+  <ApplicationName>RibonForm</ApplicationName>
+  <ApplicationVersion>1.0.0</ApplicationVersion>
+  <ApplicationUpdateTime>2015-07-02 21:22:59</ApplicationUpdateTime>
+  <ApplicationMessages>1、更新了；
+2、更新了；
+3、完善了；
+4、修改了</ApplicationMessages>
+</UpdateInformation>

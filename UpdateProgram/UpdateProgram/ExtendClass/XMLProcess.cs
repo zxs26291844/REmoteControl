@@ -88,11 +88,11 @@ namespace DotNet.Utilities
         #endregion
 
         #region 创建XML文件
-        public static void Create(string xmlName)
+        public static void Create(string filename)
         {
             try
             {
-                if (File.Exists("UpdateInfo.xml") == false)
+                if (File.Exists(filename) == false)
                 {
                     XmlDocument doc = new XmlDocument();
                     //建立xml定义声明
@@ -101,7 +101,7 @@ namespace DotNet.Utilities
                     //创建根节点
                     XmlElement root = doc.CreateElement("UpdateInformation");
                     doc.AppendChild(root);
-                    doc.Save("UpdateInfo.xml");
+                    doc.Save(filename);
                 }
             }
             catch (Exception ex)
@@ -111,6 +111,7 @@ namespace DotNet.Utilities
             
         }
         #endregion
+
         #region 读取数据
         /// <summary>
         /// 读取指定节点的数据
@@ -351,7 +352,10 @@ namespace DotNet.Utilities
                 xn.AppendChild(xe);
                 doc.Save(AppDomain.CurrentDomain.BaseDirectory.ToString() + path);
             }
-            catch { }
+            catch 
+            {
+
+            }
         }
 
         /// <summary>
