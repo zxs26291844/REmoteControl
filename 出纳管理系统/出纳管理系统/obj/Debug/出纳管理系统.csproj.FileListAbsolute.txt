@@ -1,0 +1,9 @@
+F:\VersionControl\出纳管理系统\出纳管理系统\bin\Debug\出纳管理系统.exe
+F:\VersionControl\出纳管理系统\出纳管理系统\bin\Debug\出纳管理系统.pdb
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.csprojResolveAssemblyReference.cache
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.Form1.resources
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.Properties.Resources.resources
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.csproj.GenerateResource.Cache
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.exe.licenses
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.exe
+F:\VersionControl\出纳管理系统\出纳管理系统\obj\Debug\出纳管理系统.pdb
